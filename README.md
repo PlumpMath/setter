@@ -1,4 +1,4 @@
-# Setter
+# Cliffbeta
 
 This README outlines the details of collaborating on this Ember application.
 
@@ -49,3 +49,11 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+
+## Pod file structure
+
+resources should be stored under `app/pods`. If having problems try following the steps specified in http://emberjs.com/blog/2014/10/16/handlebars-update.html
+
+- `app/pods/<module>/controller.js`
+- `app/pods/<module>/template.hbs`
+- `app/pods/<module>/route.js`
