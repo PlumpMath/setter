@@ -6,7 +6,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('walls', function() { });
+  this.route('floorplans');
 });
 
 export default Router;
