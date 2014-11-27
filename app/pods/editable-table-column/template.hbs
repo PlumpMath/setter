@@ -1,0 +1,7 @@
+<div {{action 'toggleEdit' on='doubleClick'}}>
+  {{#if isEditing}}
+    {{input type='text' value=text}}
+  {{else}}
+    {{text}}
+  {{/if}}
+</div>
